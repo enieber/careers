@@ -1,0 +1,394 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Product Component shoult renders without crashing 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Product
+    buy={[Function]}
+    category="Category 1"
+    description="test description"
+    img=""
+    title="Product 1"
+    value="100,00"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <WithStyles(CardMedia)
+          component="img"
+          height="140"
+          image=""
+          title="Contemplative Reptile"
+        />,
+        <WithStyles(CardContent)
+          style={
+            Object {
+              "padding": "2vw",
+            }
+          }
+        >
+          <WithStyles(Typography)
+            component="h3"
+            gutterBottom={true}
+            variant="headline"
+          >
+            Product 1
+          </WithStyles(Typography)>
+          <WithStyles(Typography)
+            component="h4"
+            gutterBottom={true}
+            variant="headline"
+          >
+            100,00
+          </WithStyles(Typography)>
+          <WithStyles(Typography)
+            component="p"
+          >
+            test description
+          </WithStyles(Typography)>
+          <WithStyles(Button)
+            color="primary"
+            id="button"
+            onClick={[Function]}
+            type="button"
+            variant="contained"
+          >
+            Comprar
+          </WithStyles(Button)>
+        </WithStyles(CardContent)>,
+      ],
+      "style": Object {
+        "display": "flex",
+        "flexDirection": "column",
+        "margin": "5vw",
+        "width": "30vw",
+      },
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "component": "img",
+          "height": "140",
+          "image": "",
+          "title": "Contemplative Reptile",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <WithStyles(Typography)
+              component="h3"
+              gutterBottom={true}
+              variant="headline"
+            >
+              Product 1
+            </WithStyles(Typography)>,
+            <WithStyles(Typography)
+              component="h4"
+              gutterBottom={true}
+              variant="headline"
+            >
+              100,00
+            </WithStyles(Typography)>,
+            <WithStyles(Typography)
+              component="p"
+            >
+              test description
+            </WithStyles(Typography)>,
+            <WithStyles(Button)
+              color="primary"
+              id="button"
+              onClick={[Function]}
+              type="button"
+              variant="contained"
+            >
+              Comprar
+            </WithStyles(Button)>,
+          ],
+          "style": Object {
+            "padding": "2vw",
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Product 1",
+              "component": "h3",
+              "gutterBottom": true,
+              "variant": "headline",
+            },
+            "ref": null,
+            "rendered": "Product 1",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "100,00",
+              "component": "h4",
+              "gutterBottom": true,
+              "variant": "headline",
+            },
+            "ref": null,
+            "rendered": "100,00",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "test description",
+              "component": "p",
+            },
+            "ref": null,
+            "rendered": "test description",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Comprar",
+              "color": "primary",
+              "id": "button",
+              "onClick": [Function],
+              "type": "button",
+              "variant": "contained",
+            },
+            "ref": null,
+            "rendered": "Comprar",
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <WithStyles(CardMedia)
+            component="img"
+            height="140"
+            image=""
+            title="Contemplative Reptile"
+          />,
+          <WithStyles(CardContent)
+            style={
+              Object {
+                "padding": "2vw",
+              }
+            }
+          >
+            <WithStyles(Typography)
+              component="h3"
+              gutterBottom={true}
+              variant="headline"
+            >
+              Product 1
+            </WithStyles(Typography)>
+            <WithStyles(Typography)
+              component="h4"
+              gutterBottom={true}
+              variant="headline"
+            >
+              100,00
+            </WithStyles(Typography)>
+            <WithStyles(Typography)
+              component="p"
+            >
+              test description
+            </WithStyles(Typography)>
+            <WithStyles(Button)
+              color="primary"
+              id="button"
+              onClick={[Function]}
+              type="button"
+              variant="contained"
+            >
+              Comprar
+            </WithStyles(Button)>
+          </WithStyles(CardContent)>,
+        ],
+        "style": Object {
+          "display": "flex",
+          "flexDirection": "column",
+          "margin": "5vw",
+          "width": "30vw",
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "component": "img",
+            "height": "140",
+            "image": "",
+            "title": "Contemplative Reptile",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <WithStyles(Typography)
+                component="h3"
+                gutterBottom={true}
+                variant="headline"
+              >
+                Product 1
+              </WithStyles(Typography)>,
+              <WithStyles(Typography)
+                component="h4"
+                gutterBottom={true}
+                variant="headline"
+              >
+                100,00
+              </WithStyles(Typography)>,
+              <WithStyles(Typography)
+                component="p"
+              >
+                test description
+              </WithStyles(Typography)>,
+              <WithStyles(Button)
+                color="primary"
+                id="button"
+                onClick={[Function]}
+                type="button"
+                variant="contained"
+              >
+                Comprar
+              </WithStyles(Button)>,
+            ],
+            "style": Object {
+              "padding": "2vw",
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Product 1",
+                "component": "h3",
+                "gutterBottom": true,
+                "variant": "headline",
+              },
+              "ref": null,
+              "rendered": "Product 1",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "100,00",
+                "component": "h4",
+                "gutterBottom": true,
+                "variant": "headline",
+              },
+              "ref": null,
+              "rendered": "100,00",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "test description",
+                "component": "p",
+              },
+              "ref": null,
+              "rendered": "test description",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Comprar",
+                "color": "primary",
+                "id": "button",
+                "onClick": [Function],
+                "type": "button",
+                "variant": "contained",
+              },
+              "ref": null,
+              "rendered": "Comprar",
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

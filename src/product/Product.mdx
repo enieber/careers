@@ -1,0 +1,32 @@
+---
+name: Product
+---
+
+import Product from './Product';
+import { Playground, PropsTable } from 'docz';
+
+# RamalItem
+
+## Basic usage
+
+<Playground>
+ <div
+   style={{display: 'flex'}}
+ >
+ <Product 
+  title={'Product 1'}
+  value={'100,00'}
+  description={'test description'}
+  category={'Category 1'}
+  buy={() => {
+    alert('functions to buy product');
+  }}
+/>
+</div>
+</Playground>
+
+
+
+## Properties
+<PropsTable of={Product} />
+
